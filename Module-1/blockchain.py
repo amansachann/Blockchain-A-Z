@@ -62,8 +62,12 @@ class Blockchain:
             block_index += 1
         return True
     
-    
-    
-
 
 # Part-2 - Mining our blockchain
+
+# Creating a webapp
+app = Flask(__name__)
+
+
+# Creating a blockchain
+blockchain = Blockchain()
